@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://baryslau.github.io/rsschool-cv/cv
