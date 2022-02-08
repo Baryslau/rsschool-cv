@@ -1,8 +1,8 @@
   
-# [rsschool-cv](https://baryslau.github.io/rsschool-cv/)
+# [rsschool-cv](https://baryslau.github.io/rsschool-cv/cv)
 ## __Baryslau Pryharau__
 
-Junior Frontend Developer
+### Junior Frontend Developer
 
 ---
 ## Contact information:
