@@ -13,8 +13,10 @@
 </head>
 <body>  
       <header class="header">
+        <div class="container">
         <nav class="nav">
           <ul class="nav-list">
+            <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
             <li class="nav-item"><a href="#contacts" class="nav-link">My Contacts</a></li>
             <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
             <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
@@ -23,60 +25,86 @@
             <li class="nav-item"><a href="#Languages" class="nav-link">Languages</a></li>
           </ul>
         </nav>
-      </header>
-      <div class="main-container">
-      <div class="title">
-        <div class="foto"><img src="IMG.JPG" alt="my photo" width="130px"></div> 
-        <div class="container2">
-        <div class="name">Baryslau Pryharau</div> 
-        <div class="subtitle">Junior Frontend Developer</div> 
-        </div>
       </div>
-      <div class="container">
-        <div class="flex1" id="contacts">
-          <h2 class="card-title"> Contact information:</h2>
-              <p class="card-text">Telegram: @geraltin</p> 
-              <p class="card-text">Discord: Geraltin(@Baryslau)</p> 
-              <p class="card-text">Phone: +375-29-1283881</p> 
-              <p class="card-text">E-mail: prigarovb@gmail.com</p> 
-        </div>
-        <div class="flex2" id="about-me">
-          <h2 class="card-title">A little about yourself:</h2>
+      </header>
+      <main class="main">
+        <div class="container">
+          <section class="title" id="profile">
+            <img src="IMG.JPG" alt="my photo" width="130px">
+            <section class="name" id="profile">
+              <h1>Baryslau Pryharau</h1>
+              <p>Junior Frontend Developer</p>
+            </section>
+          </section>
+          
+        <div class="container main-container"> 
+            <section class="section" id="contacts">
+              <h2 class="section-title"> Contact information:</h2>
+              <ul class="list">
+                <li>Telegram: @geraltin</li>
+                <li>Discord: Geraltin(@Baryslau)</li>
+                <li>Phone: +375-29-1283881</li>
+                <li>E-mail: prigarovb@gmail.com</li>
+              </ul>
+            </section>
+            
+            <section class="section" id="about-me"> 
+              <h2 class="section-title">A little about yourself:</h2>
               <p class="card-text">I am engaged in technological support of mechanical assembly works at one of the enterprises of the city in Gomel.</p> 
               <p class="card-text">I wanted to change my specialization now I’m mastering the initial stages of Frontend development.</p> 
-              <p class="card-text">I hope that my desire to learn a new profession for myself will help me overcome all the difficulties of learning that await me)</p> 
+              <p class="card-text">I hope that my desire to learn a new profession for myself will help me overcome all the difficulties of learning that await me)</p>
+            </section>
+          
+            <section class="section" id="skills">
+              <h2 class="section-title">My skills and abilities:</h2>
+              <ul class="list">
+                <li>HTML, CSS, JavaScript</li>
+                <li>Git, GitHub</li>
+                <li>VS Code</li>
+              </ul>
+            </section>
+
+            <section class="section" id="code">
+              <h2 class="section-title">Code example</h2>
+              <pre>
+              <code>
+              &ltdiv class="advice"&gt
+              &ltp class="logo"&gtProcrastinate. &lt/p&gt
+              &ltspan&gtНе писать код, а &lt/span&gt
+              &ltspan class="phrase"&gtчто бы поделать? &lt/span&gt
+              </code>
+              </pre>
+            </section>
+
+            <section class="section" id="courses">
+              <h2 class="section-title">Courses:</h2>
+              <ul class="list">
+                <li>HTML, JS, CSS, Git video courses on YouTube</li>
+                <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+              </ul>
+            </section>
+
+            <section class="section" id="Languages">
+              <h2 class="section-title">Languages:</h2>
+              <ul class="list">
+                <li>English - A2</li>
+                <li>Russian - Native</li>
+              </ul>
+            </section>
+          
+        </div> 
         </div>
-        <div class="flex3" id="skills">
-          <h2 class="card-title">  My skills and abilities:</h2>
-          <p class="card-text">HTML, CSS JavaScript Basics Git, GitHub, VS Code</p>
-        </div>
-        <div class="flex4" id="code">
-        <h2 class="card-title"> Code example</h2>
-        <pre>
-        <code>
-         &ltdiv class="advice"&gt
-         &ltp class="logo"&gtProcrastinate. &lt/p&gt
-         &ltspan&gtНе писать код, а &lt/span&gt
-         &ltspan class="phrase"&gtчто бы поделать? &lt/span&gt
-        </code>
-        </pre>
-        </div>
-        <div class="flex5" id="courses">
-          <h2 class="card-title">  Courses:</h2>
-        <p class="card-text">HTML, JS, CSS, Git video courses on YouTube</p>
-        <p class="card-text">RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</p>
-        </div>
-        <div class="flex6" id="Languages">
-          <h2 class="card-title">  Languages:</h2>
-          <p class="card-text">English - A2</p>
-          <p class="card-text">Russian - Native</p></div>
-      </div>
-    </div>
+      </main>
+      
+    
   
-<footer class="footer"> <a href="https://github.com/Baryslau"> Baryslau 2022</a>
+<footer class="footer"> 
+  <div class="container"> 
+   <a href="https://github.com/Baryslau"> Baryslau 2022</a>
 <a href="https://rs.school/js/">
    <img alt="Logo RSS" src="https://rs.school/images/rs_school.svg" width=150" height="70" >   
      </a>
+    </div>
       </footer>
       
 </body>
