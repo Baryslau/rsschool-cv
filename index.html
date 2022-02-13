@@ -11,76 +11,73 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap" rel="stylesheet">
 </head>
-<body>
-
-      Contact information:
-      Telegram: @geraltin
-      
-      Discord: Geraltin(@Baryslau)
-      
-      Phone: +375-29-1283881
-      
-      E-mail: prigarovb@gmail.com
-      A little about yourself:
-      I am engaged in technological support of mechanical assembly works at one of the enterprises of the city in Gomel.
-      
-      I wanted to change my specialization now I’m mastering the initial stages of Frontend development.
-      
-      I hope that my desire to learn a new profession for myself will help me overcome all the difficulties of learning that await me)
-      
-      My skills and abilities:
-      HTML, CSS JavaScript Basics Git, GitHub, VS Code
-      
-      Code example:
-      <div class="advice">
-          <p class="logo">Procrastinate.</p>
-          <span>Не писать код, а</span>
-          <span class="phrase">что бы поделать?</span>
-      </div>
-      Courses:
-      HTML, JS, CSS, Git video courses on YouTube
-      
-      RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
-      
-      Languages:
-      English - A2
-      
-      Russian - Native
-     
+<body>  
       <header class="header">
-        <div class="overlay">
-            <img class="foto" src="IMG.JPG" alt="my photo" >
-            <h1 class="name">Baryslau Pryharau</h1>
-            <h3>Junior Frontend Developer</h3>
-        </div>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">My Contacts</a></li>
+            <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+            <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+            <li class="nav-item"><a href="#Languages" class="nav-link">Languages</a></li>
+          </ul>
+        </nav>
       </header>
-      <main class="main">
-        
-            <div class="card">
-              <img class="card-image" src="https://pictures.s3.yandex.net/frontend-developer/free-course/card-1.jpg">
-              <h3 class="card-title">Пустота</h3>
-              <p class="card-text">Простое правило, которое часто нарушают: ставить рядом элементы с похожим смыслом и окружать их пустым пространством. Пустота — мощное средство воздействия.</p>
-            </div>
-            <div class="card no-right-margin">
-              <img class="card-image" src="https://pictures.s3.yandex.net/frontend-developer/free-course/card-2.jpg">
-              <h3 class="card-title">Сетка</h3>
-              <p class="card-text">Размеры элементов и расстояния между ними укладываются в гармоничную схему — её называют сеткой. Если элемент выпадает, зритель может это заметить.</p>
-            </div>
-            <div class="card">
-              <img class="card-image" src="https://pictures.s3.yandex.net/frontend-developer/free-course/card-3.jpg">
-              <h3 class="card-title">Шрифты</h3>
-              <p class="card-text">Не больше трёх шрифтов на сайт. Один для заголовков, второй — для всех остальных текстов, третий — для выделения важных слов. Должно хватить.</p>
-            </div>
-              <div class="card no-right-margin">
-              <img class="card-image" src="https://pictures.s3.yandex.net/frontend-developer/free-course/card-4.jpg">
-              <h3 class="card-title">Цвета</h3>
-              <p class="card-text">Обычно на сайте два цвета: ведущий и акцентный. Подобрать удачную цветовую пару можно за счёт насмотренности или специальных инструментов.</p>
-            </div>
-          
-      </main>
-      
-      <footer class="footer">
-       <h4 class="footer-author">ляляля тополя</h4>
+      <div class="main-container">
+      <div class="title">
+        <div class="foto"><img src="IMG.JPG" alt="my photo" width="130px"></div> 
+        <div class="container2">
+        <div class="name">Baryslau Pryharau</div> 
+        <div class="subtitle">Junior Frontend Developer</div> 
+        </div>
+      </div>
+      <div class="container">
+        <div class="flex1" id="contacts">
+          <h2 class="card-title"> Contact information:</h2>
+              <p class="card-text">Telegram: @geraltin</p> 
+              <p class="card-text">Discord: Geraltin(@Baryslau)</p> 
+              <p class="card-text">Phone: +375-29-1283881</p> 
+              <p class="card-text">E-mail: prigarovb@gmail.com</p> 
+        </div>
+        <div class="flex2" id="about-me">
+          <h2 class="card-title">A little about yourself:</h2>
+              <p class="card-text">I am engaged in technological support of mechanical assembly works at one of the enterprises of the city in Gomel.</p> 
+              <p class="card-text">I wanted to change my specialization now I’m mastering the initial stages of Frontend development.</p> 
+              <p class="card-text">I hope that my desire to learn a new profession for myself will help me overcome all the difficulties of learning that await me)</p> 
+        </div>
+        <div class="flex3" id="skills">
+          <h2 class="card-title">  My skills and abilities:</h2>
+          <p class="card-text">HTML, CSS JavaScript Basics Git, GitHub, VS Code</p>
+        </div>
+        <div class="flex4" id="code">
+        <h2 class="card-title"> Code example</h2>
+        <pre>
+        <code>
+         &ltdiv class="advice"&gt
+         &ltp class="logo"&gtProcrastinate. &lt/p&gt
+         &ltspan&gtНе писать код, а &lt/span&gt
+         &ltspan class="phrase"&gtчто бы поделать? &lt/span&gt
+        </code>
+        </pre>
+        </div>
+        <div class="flex5" id="courses">
+          <h2 class="card-title">  Courses:</h2>
+        <p class="card-text">HTML, JS, CSS, Git video courses on YouTube</p>
+        <p class="card-text">RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</p>
+        </div>
+        <div class="flex6" id="Languages">
+          <h2 class="card-title">  Languages:</h2>
+          <p class="card-text">English - A2</p>
+          <p class="card-text">Russian - Native</p></div>
+      </div>
+    </div>
+  
+<footer class="footer"> <a href="https://github.com/Baryslau"> Baryslau 2022</a>
+<a href="https://rs.school/js/">
+   <img alt="Logo RSS" src="https://rs.school/images/rs_school.svg" width=150" height="70" >   
+     </a>
       </footer>
+      
 </body>
 </html>

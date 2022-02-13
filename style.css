@@ -1,82 +1,76 @@
-
-
-body, h1, h2, h3, h4, p, a {
-    margin: 0; 
-    font-size: 100%; 
-    font-weight: normal;
-    font-family: 'Barlow', sans-serif;
-  }
-  *{box-sizing:border-box;
-    border: 1px solid red}
-
+html {
+  scroll-behavior: smooth; 
+  margin: 0;
+}
+header {
+  background-color: rgba(225, 226, 162, 0.288);
+  height: 50px;
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+}
+.main-container{
+  background-color: rgba(31, 173, 209, 0.075);
+}
+.title {
+  display: flex;
+  flex-direction: row;
   
+  align-items: center;
+  height: 200px;
   
-  .header {
-    height: 100vh;
-    background-color: #eee;
-    background-image: url(https://pictures.s3.yandex.net/frontend-developer/free-course/cover.jpg);
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-  }
+}
+.title div {
+  width: 500px;
+  align-items: center;
+}
+.foto {
+  padding: 0 0 0 700px;
+ 
+}
+.container2 {
+  padding: 0 650px 0 0px;
   
-  .name {
-    font-size: 140px;
-    color: white;
-    text-transform: uppercase;
-    font-weight: 500;
-    margin: auto;
-  }
+}
+.name {
+  font-size: 50px;
   
-  .overlay {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, .5);
-    display:flex;
-  }
-  .main{font-size:0;
-    width: 790px;
-    margin:100px auto 50px auto;
-  }
+}
+.subtitle {
+  font-size: 35px;
   
-  .card {display: inline-block;
-    width: 350px;
-    margin-bottom: 60px;
-    margin-right: 90px;
-    box-shadow: 4px 4px 5px rgba(250,50,50,.4);
-    padding: 45px 45px 70px 45px;
-  }
-  .no-right-margin{margin-right: 0px}
-  .card-title {
-    font-size: 24px;
-    font-weight: 500;
-    height: 30px;
-    background-color: #e3f3ff;
-    width: 250px;
-    margin-bottom: 10px;
-  }
-  .card-text {
-    font-size: 16px;
-    font-weight: 500;
-    height: 100px;
-    background-color: #e3f3ff;
-    width: 250px;
-    
-  }
-  .card-image {
-    width: 100%;
-    margin-bottom: 25px;
-  }
-  .footer {
-    height: 300px;
-      background-color: black;
-    display:flex; 
-  }
-  .footer-author{color:white;
-  font-size:24px;
-  margin: auto;}
-
-  .foto {
-    width: 50px;
-     height: auto;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 700px;
+  align-items: center;
+  align-content: space-between;
+}
+.container div {
+  width: 900px;
+  height: 200px;
+  
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+ 
+  justify-content: space-between; 
+  font-size: 50px;
+  padding: 40px;
+  background-color: rgba(76, 157, 177, 0.541);
+}
+a {
+  text-decoration: none;
 }
