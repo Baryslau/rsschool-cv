@@ -80,7 +80,9 @@ footer {
   font-weight: 1000;
   color: black;
 }
-
+.rss{
+  background-image: url("https://rs.school/images/rs_school.svg");
+}
 
 /*
 }
