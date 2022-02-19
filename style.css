@@ -24,13 +24,8 @@ header {
 }
 main {
   min-height: 50px;
-  background-color: rgba(81, 209, 102, 0.288)  
+  background-color: rgba(81, 209, 102, 0.1)  
 }
-footer {
-  height: 50px;
-  background-color: rgba(206, 27, 57, 0.288) 
-}
-
  .nav-list {
   display: flex;
   justify-content: end;
@@ -80,36 +75,23 @@ footer {
   font-weight: 1000;
   color: black;
 }
-.rss{
-  background-image: url("https://rs.school/images/rs_school.svg");
+footer {
+  height: 50px;
+  background-color: rgba(122, 206, 27, 0.288); 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  font-size: 30px;
+  list-style: none;
 }
 
-/*
+.rss {
+  height: 50px;
+  width: 150px;
+  background-image: url("https://rs.school/images/rs_school.svg");
+  background-repeat: no-repeat;
 }
-.container {
-  display: flex;
-  flex-direction: row;
-  
-  justify-content: space-between;
-  flex-wrap: wrap;
-  height: 700px;
-  align-items: center;
-  align-content: space-between;
-}
-.container div {
-  width: 900px;
-  height: 200px;
-  
-}
-.footer {
-  display: flex;
-  flex-direction: row;
- 
-  justify-content: space-between; 
-  font-size: 50px;
-  padding: 40px;
-  background-color: rgba(76, 157, 177, 0.541);
-}
-a {
-  text-decoration: none;
-} */
+
+
+
